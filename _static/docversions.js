@@ -10,7 +10,7 @@ function insert_version_links() {
             }
         }
         document.write(open_list);
-        document.write('<a href="URL">networkx VERSION</a> </li>\n'
+        document.write('<a href="URL">pygraphviz VERSION</a> </li>\n'
                         .replace('VERSION', versions[i])
                         .replace('URL', 'https://pygraphviz.github.io/documentation/pygraphviz-' + versions[i]));
     }
