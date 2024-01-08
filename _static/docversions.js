@@ -1,4 +1,4 @@
-var versions = ['1.11', '1.10', '1.9', '1.8', '1.7', '1.6', '1.5', '1.3', '1.2'];
+var versions = ['1.12', '1.11', '1.10', '1.9', '1.8', '1.7', '1.6', '1.5', '1.3', '1.2'];
 
 function insert_version_links() {
     for (i = 0; i < versions.length; i++){
